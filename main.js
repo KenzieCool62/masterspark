@@ -3,7 +3,7 @@ words = ["HBD!!!", "Birthday, birthday, birthday, birthday, birthday", "Hello Wo
 let state = false
 function masterSpark() {
     if (state == false) {
-        state = true
+        state = false
         const sound = new Audio()
         sound.src = "assets/master_spark.mp3"
         sound.volume = 1
